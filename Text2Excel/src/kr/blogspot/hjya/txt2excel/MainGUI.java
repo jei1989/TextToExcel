@@ -14,6 +14,7 @@ public class MainGUI {
 	 */
 	public MainGUI() {
 		// TODO Auto-generated constructor stub
+		System.out.println("txt");
 	}
 
 	/**
