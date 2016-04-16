@@ -9,7 +9,7 @@ import kr.blogspot.hjya.*;
  * @author Administrator
  *
  */
-public class MainGUI {
+public class UIProperty {
 
 	/**
 	 * 
@@ -46,12 +46,11 @@ public class MainGUI {
 	}
 	
 	
-	public MainGUI() {
+	public UIProperty() {
 		// TODO Auto-generated constructor stub
-		this.initGUI();
 	}
     	
-    public MainGUI(String[] args)
+    public UIProperty(String[] args)
     {
 			
 		for( int cnt =0 ; cnt < args.length ; cnt++)
@@ -80,28 +79,9 @@ public class MainGUI {
 					return;
 				}
 			}
-			this.initGUI();
-		}
+		}//for( int cnt =0 ; cnt < args.length ; cnt++)
 
-    }
+    }//public UIProperty(String[] args)
     
-    private void initGUI()
-    {
-    	
-    }
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		if( args.length == 0 ){
-			new MainGUI();
-		}
-		else
-		{
-			new MainGUI(args);
-		}
-	}
 
 }
